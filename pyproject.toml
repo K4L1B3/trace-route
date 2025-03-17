@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "axion-data"
+version = "0.1.0"
+description = ""
+authors = ["K4L1B3 <luizhlimagomes28@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+geopy = "^2.4.1"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
